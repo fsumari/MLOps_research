@@ -6,18 +6,17 @@ Proyectos de MLOps, de diferentes tareas, orquestación, despliegue de modelos m
 * Clone tradicional
 
     ```github
-    GITLAB_PROJECT_DIRECTORY=itc-ailab-gcp-tinka-ocr
-    git clone https://gitlab.com/fsumari1/${GITLAB_PROJECT_DIRECTORY}.git
-    
-    cd $GITLAB_PROJECT_DIRECTORY    
+    GITHUB_PROJECT_DIRECTORY=MLOps_research
+    git clone https://github.com/fsumari/${GITHUB_PROJECT_DIRECTORY}.git
+    cd $GITHUB_PROJECT_DIRECTORY
     ```
 
 * Or clone with Personal Token
 
     ```sh
-    GITLAB_PROJECT_DIRECTORY=itc-ailab-gcp-tinka-ocr
-    GITLAB_REPOSITORY=gitlab.com/fsumari1/${GITLAB_PROJECT_DIRECTORY}.git
-    GITLAB_TOKEN=xxxxxxxxxxxxxxx
-    GITLAB_USERNAME=xxxxxxxxxxxxx
-    git clone https://${GITLAB_USERNAME}:${GITLAB_TOKEN}@${GITLAB_REPOSITORY}
+    GITHUB_PROJECT_DIRECTORY=MLOps_research
+    GITHUB_REPOSITORY=github.com/fsumari/${GITHUB_PROJECT_DIRECTORY}.git
+    GITHUB_TOKEN=xxxxxxxxxxxxxxx
+    GITHUB_USERNAME=xxxxxxxxxxxxx
+    git clone https://${GITLAB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}
 
